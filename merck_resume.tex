@@ -1,0 +1,167 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}
+{\end{itemize}\vspace{-5pt}}
+\newcommand{\skillItemListStart}
+{\begin{itemsize}}\vspace{-5pt}
+\newcommand{\skillItemListEnd}
+{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf {{\LARGE Brooke Huang}} & Email : sh3753@nyu.edu\\
+  \ http://linkedin.com/in/siqihuang0504/ & Mobile : +1-917-325-5602\\
+\end{tabular*}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {New York University}{New York, NY}
+      {Master of Arts in Applied Quantitative Research}{Jan 2016}\
+     
+      {Program focused on Research Methodologies, Predictive Modeling, Hypothesis Testing, and Data Analytic, using Python and SQL}\
+    \resumeSubheading
+      {Central University of Finance and Economics}{Beijing, China}
+      {Bachelor of Business Administration in Creative Industry Management; Minor in Finance}{Jun 2013}\
+
+{Related courses included Microeconomics, Macroeconomics, Statistics and Computer Science with MS access}\
+        \resumeSubHeadingListEnd
+%-----------EXPERIENCE--------------
+\section{Experience}
+\resumeSubHeadingListStart
+     \resumeSubheading
+      {ISSEY MIYAKE USA Corp}{New York, NY}
+      {Wholesale Analyst}{Sep 2019 - Present}
+      \resumeItemListStart
+      \resumeItem{Promotion Analysis}
+          {Create weekly Flash Report for 6 brands utilizing Excel SUMIF/SUMIFS function to help Wholesale team better understand the effect of promotion events on selling performance}
+      \resumeItem{Workflow Enhancement}
+{Utilize Python Pandas, ChromeDriver and PyautoGUI to automate the process of converting and cleaning up data, which enhances the data accuracy and decrease the average data process time from 20 minutes to less than 3 minutes}
+ \resumeItem{EXCEL Dashboard Enhancement}
+{Create an interactive dashboard which allows wholesale director explores five years of selling data by different dimensions, utilizing Excel data validation, data visualization and INDEX/MATCH function}
+       \resumeItem{Structured Query Language Reporting} {Identify reporting opportunities after discussing the business needs with Account Executives and generate three different kinds of reports by writing SQL queries} 
+
+      \resumeItemListEnd
+    \resumeSubheading
+      {ISSEY MIYAKE USA Corp}{New York, NY}
+      {Wholesale Data Coordinator}{Feb 2019 - Sep 2019}
+      \resumeItemListStart
+             \resumeItem{Data-driven Presentation}
+ {Help Wholesale Director prepare presentation for annual board meeting at Japan headquarter through creating a descriptive selling analysis which successfully persuaded brand HAAT back to New York market}
+\resumeItem{Cross-functional Communication}
+          {Communicate with Logistics, Account Executives and Accounting teams to prepare ad-hoc reports based on different business needs}
+ \resumeItem{Database On-boarding}
+{Help on-boarding SAP Business One by setting up user procedure, communicating with IT support on troubleshooting system failures and identifying automation opportunities for reporting}
+
+      \resumeItemListEnd
+       \resumeSubheading
+       {Yuco Real Estate LLC}{New York, NY}
+      {Data Operations Analyst}{Jan 2017 - June 2017}
+      \resumeItemListStart
+           \resumeItem{Process Improvement}
+         {Modernized applicant verification process by implementing online softwares such as Google Sheets and Genbook, bringing delayed timeline back on track} 
+ \resumeItem{Client-facing Functionality}
+          {Assisted in mitigating client complaint reports by utilizing phone, text, email, and paper mail to perform follow-ups with prospects in accordance with company guidelines}
+       \resumeItemListEnd
+  \resumeSubheading
+       {HAVER ANALYTICS}{New York, NY}
+      {Quality Assurance Engineer}{Jun 2016 - Aug 2016}
+      \resumeItemListStart
+          \resumeItem{QA Test}{Helped launching two new products by conducting tests on different versions, documenting test manuals using project management tools, and communicating with IT teams to prioritize tasks}
+ \resumeItem{Project Management}
+          {Organized Bugzilla dashboards by closing up completed tickets, consolidating duplicate issues and prioritizing ticket backlog for developers}
+          \resumeItemListEnd
+      \resumeSubheading
+      {Legion Of Good Will}{New York, NY}     
+      {Data Analyst Intern}{Mar 2015 - Aug 2015}
+      \resumeItemListStart
+         \resumeItem{Data-driven Decision Making}
+          {Analyzed donation data from 2013 to 2015 to optimize campaign locations, which increased donations by 200 percent}
+        \resumeItem{Digital Strategy Enhancement}{Improved the click-through-rate by 34 percent for email marketing campaigns by creating content, conducting A/B tests, and identifying KPIs to measure success}
+
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  %-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeSubItem{Business Insights using SQL}
+{Translated business problems into equations based on variables in the sample company database and then implemented SQL queries, including but not limited to CASE, JOIN, SUBQUERY, etc. to execute calculations}
+       \resumeSubItem{How to Raise User's Test Complete Rate--A Business Analysis using Tableau}
+{Developed and presented a data-driven business approach on a dataset of over 170,000 inputs to improve the user test completion rate by reviewing trends and building dashboards on Tableau. Worksheet, Dashboard and Story functions within Tableau were applied to complete this presentation }   
+
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+
+%-------------------------------------------
+\end{document}
